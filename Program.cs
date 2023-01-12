@@ -15,7 +15,7 @@ namespace StackQueueUsingLinkedList
             obj.enqueue(30);
             obj.enqueue(70);
             Console.WriteLine();
-            //Console.WriteLine("Item popped from Queue = " + obj.dequeue());
+            Console.WriteLine("Item popped from Queue = " + obj.dequeue());
 
 
             Console.WriteLine("Top Element of the Queue is : " + obj.peek());
